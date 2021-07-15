@@ -1,0 +1,35 @@
+#container {
+    margin: 0 auto;
+    
+    .banner {
+        position: relative;
+        .bannerImg {
+            background-image: url(../../assets/wallpaper.jpeg);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 60%;
+            filter: brightness(50%);
+            height: 37rem;
+        }
+
+        .bannerContent {
+            color: var(--white);
+            margin-left: 15rem;
+            position: absolute;
+            top: 35%;
+            width: 40rem;
+
+            h2 {
+                font-size: 3.2rem;
+                font-weight: 700;
+                margin-bottom: 2rem;
+            }
+
+            p {
+                font-size: 2rem;
+                line-height: 2.5rem
+            }
+        }
+    }
+}
