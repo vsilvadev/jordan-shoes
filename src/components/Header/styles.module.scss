@@ -1,0 +1,30 @@
+#container {
+    .discount {
+        background: var(--title);
+        height: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h2 {
+            font-size: 1.4rem;
+            font-weight: 500;
+            color: var(--bgSite);
+        }
+    }
+
+    .storeTitle {
+        background: var(--bgSite);
+        height: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        h1 { 
+            font-size: 2.6rem;
+            font-weight: 600;
+
+            color: var(--title);
+        }
+    }
+}
