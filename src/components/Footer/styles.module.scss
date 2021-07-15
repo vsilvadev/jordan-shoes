@@ -1,0 +1,14 @@
+#container {
+    background: var(--title);
+    height: 5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: var(--bgSite);
+    }
+}
