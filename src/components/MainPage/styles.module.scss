@@ -49,6 +49,8 @@
     }
 
     .shoesContainer {
+        max-width: 1350px;
+        margin: 0 auto;
         padding-bottom: 4rem;
         display: flex;
         flex-wrap: wrap;
@@ -59,7 +61,7 @@
             justify-content: center;
             align-items: center;
 
-            width: 300px;
+            max-width: 300px;
             height: 250px;
             margin: 1.5rem;
             background: var(--bgCard);
