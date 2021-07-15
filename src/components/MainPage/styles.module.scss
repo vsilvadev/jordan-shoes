@@ -74,24 +74,24 @@
 }
 
 @media (min-width:320px) and (max-width: 480px) {
-    .banner {
-        position: relative;
-        .bannerImg {
-            background-image: url(../../assets/wallpaper.jpeg);
-            background-attachment: fixed;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: 60%;
-            filter: brightness(50%);
-            height: 37rem;
-        }
-
-        .bannerContent {
-            color: var(--white);
-            margin-left: 1rem;
-            position: absolute;
-            top: 35%;
-            width: 40rem;
+    #container {
+        .banner {
+            .bannerContent {
+                margin-left: 1rem;
+                top: 25%;
+                width: 30rem;
+            }
+            
+            h2 {
+                font-size: 1.5rem;
+                font-weight: 700;
+                margin-bottom: 2rem;
+            }
+    
+            p {
+                font-size: 0.7rem;
+                line-height: 2.5rem
+            }
         }
     }
 }
